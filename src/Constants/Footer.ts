@@ -83,3 +83,26 @@ export const FOOTER = {
       ],
     },
   ],
+  socialMedia: [
+    {
+      id: "S-M1",
+      icon: instagram,
+      link: "https://www.instagram.com/",
+    },
+    {
+      id: "S-M2",
+      icon: facebook,
+      link: "https://www.facebook.com/",
+    },
+    {
+      id: "S-M3",
+      icon: twitter,
+      link: "https://www.twitter.com/",
+    },
+    {
+      id: "S-M4",
+      icon: linkedin,
+      link: "https://www.linkedin.com/",
+    },
+  ],
+};
