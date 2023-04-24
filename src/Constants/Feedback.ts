@@ -25,3 +25,22 @@ export const FEEDBACK = {
       img: people03,
     },
   ],
+  clients: [
+    {
+      id: "c-1",
+      img: airbnb,
+    },
+    {
+      id: "c-2",
+      img: binance,
+    },
+    {
+      id: "c-3",
+      img: coinbase,
+    },
+    {
+      id: "c-4",
+      img: dropbox,
+    },
+  ],
+};
