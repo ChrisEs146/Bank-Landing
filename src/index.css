@@ -63,4 +63,36 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* Utility */
+.blue-gradient {
+  background: var(--blue-gradient);
+  filter: blur(123px);
 }
+
+.pink-gradient {
+  background: var(--pink-gradient);
+  filter: blur(900px);
+}
+
+.white-gradient {
+  background: var(--white-gradient);
+  filter: blur(750px);
+}
+
+.text-gradient {
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 
+screens:
+small: 480px
+small-1: 620px
+small-2: 768px
+medium: 1060px
+large: 1200px
+extra large: 1700px
+*/
