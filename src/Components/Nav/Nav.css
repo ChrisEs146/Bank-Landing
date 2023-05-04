@@ -1,9 +1,13 @@
+.nav {
+  margin-bottom: 2rem;
+}
+
 .nav__container {
   display: flex;
   position: relative;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 0;
   margin: 0 auto;
   width: 90%;
   max-width: 120rem;
