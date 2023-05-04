@@ -1,0 +1,38 @@
+.features__content {
+  text-align: center;
+}
+
+.features__content > * {
+  margin-bottom: 1.5rem;
+}
+
+.features__item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.features__item:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.features__item div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--dim-blue);
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.features__item img {
+  height: auto;
+  width: 2rem;
+}
+
+.features__item p {
+  font-size: 1.4rem;
+}
