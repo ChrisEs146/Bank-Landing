@@ -1,0 +1,41 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+}
+
+.hero__discount-card {
+  display: flex;
+  align-items: center;
+  background: var(--discount-gradient);
+  border-radius: 10px;
+  padding: 0.4rem 0.7rem;
+  width: fit-content;
+  margin: 0 auto 1.5rem auto;
+}
+
+.hero__discount-card span {
+  color: var(--white);
+}
+
+.hero__text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hero__text span {
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__text p {
+  text-align: center;
+  max-width: 40rem;
+}
+
+.hero__img img {
+  height: auto;
+  width: 100%;
+}
