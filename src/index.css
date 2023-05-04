@@ -52,7 +52,26 @@ html {
 
 body {
   font-family: "Poppins", Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--white);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--dim-white);
 }
 
 ol,
@@ -62,6 +81,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+section {
+  margin-bottom: 3rem;
 }
 
 /* Utility */
@@ -80,11 +103,23 @@ a {
   filter: blur(750px);
 }
 
-.text-gradient {
-  background: var(--text-gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.start-btn {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: 2px solid transparent;
+  background: var(--blue-gradient-2);
+  color: var(--primary-color);
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transition: color 0.3s ease-out, border 0.3s ease-out, background 1s ease-in;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  color: var(--white);
+  background: var(--dim-blue);
+  border: 2px solid var(--dim-white);
 }
 
 /* 
