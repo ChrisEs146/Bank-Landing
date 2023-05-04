@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NAVBARLINKS } from "../../Constants/Navbar";
-import { NavLink } from "./Nav.types";
 
 function NavList() {
   const [active, setActive] = useState<string>("Home");
@@ -8,7 +7,7 @@ function NavList() {
 
   return (
     <ul className="nav__list">
-      {NAVBARLINKS.map((link: NavLink) => (
+      {NAVBARLINKS.map((link) => (
         <li key={link.id} onClick={() => handleNavLink(link.title)}>
           <a
             className={active === link.title ? "nav__link--active" : "nav__link"}
