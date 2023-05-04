@@ -1,3 +1,4 @@
 .app {
   background-color: var(--primary-color);
+  padding: 0 1.5rem;
 }
