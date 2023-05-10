@@ -67,12 +67,13 @@ h2 {
   font-size: 2rem;
 }
 
-h3 {
+h3,
+p {
   font-size: 1.6rem;
 }
 
-p {
-  font-size: 1.6rem;
+p,
+span {
   color: var(--dim-white);
 }
 
