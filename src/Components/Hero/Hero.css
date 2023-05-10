@@ -1,7 +1,9 @@
 .hero {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(min(34rem, 100%), 1fr));
+  align-items: center;
   row-gap: 2rem;
+  margin-bottom: 6rem;
 }
 
 .hero__discount-card {
