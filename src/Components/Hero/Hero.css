@@ -51,6 +51,40 @@
 .hero__img img {
   position: relative;
 }
+
+.gradient-blue,
+.gradient-pink,
+.gradient-white {
+  position: absolute;
+  opacity: 0.4;
+  filter: blur(70rem);
+}
+
+.gradient-pink {
+  z-index: 0;
+  width: 40%;
+  height: 35%;
+  top: 0;
+  background: var(--pink-gradient);
+}
+
+.gradient-white {
+  z-index: 1;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: -5rem;
+  right: 0;
+  background: var(--white-gradient);
+}
+
+.gradient-blue {
+  z-index: 0;
+  width: 50%;
+  height: 50%;
+  right: 15rem;
+  bottom: 2rem;
+  background: var(--blue-gradient);
 }
 
 .hero__img img {
