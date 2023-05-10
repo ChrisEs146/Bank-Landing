@@ -24,9 +24,10 @@
   color: var(--white);
 }
 
-.hero__text h1 {
-  font-size: 2.8rem;
-  margin-bottom: 2rem;
+.hero__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -39,6 +40,8 @@
   font-size: clamp(1.6rem, 1vw, 1.8rem);
   width: min(70%, 40rem);
 }
+
+.hero__header span {
   background: var(--text-gradient);
   background-clip: text;
   -webkit-text-fill-color: transparent;
