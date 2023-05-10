@@ -86,14 +86,13 @@ a {
   text-decoration: none;
 }
 
-section {
-  margin-bottom: 3rem;
+.app {
+  background-color: var(--primary-color);
 }
 
-/* Utility */
-.blue-gradient {
-  background: var(--blue-gradient);
-  filter: blur(123px);
+.app > section:not(:first-of-type) {
+  margin-bottom: 6rem;
+  padding: 0 1.5rem;
 }
 
 .pink-gradient {
