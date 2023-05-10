@@ -94,4 +94,22 @@
   height: auto;
   width: 70%;
 }
+
+@media (min-width: 765px) {
+  .hero {
+    margin-left: 10%;
+  }
+
+  .hero__header {
+    display: block;
+    text-align: left;
+  }
+
+  .hero__discount-card {
+    margin: 0 0 1.5rem 0;
+  }
+
+  .hero__img img {
+    width: 85%;
+  }
 }
