@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
-/* Custom props */
 :root {
   /* Color props */
   --primary-color: #00040f;
@@ -95,16 +94,6 @@ a {
   padding: 0 1.5rem;
 }
 
-.pink-gradient {
-  background: var(--pink-gradient);
-  filter: blur(900px);
-}
-
-.white-gradient {
-  background: var(--white-gradient);
-  filter: blur(750px);
-}
-
 .start-btn {
   width: 100%;
   padding: 1rem 2rem;
@@ -114,8 +103,8 @@ a {
   border-radius: 10px;
   font-size: 1.6rem;
   font-weight: 500;
-  transition: color 0.3s ease-out, border 0.3s ease-out, background 1s ease-in;
   cursor: pointer;
+  transition: background 0.5s;
 }
 
 .start-btn:hover {
@@ -127,7 +116,7 @@ a {
 /* 
 screens:
 small: 480px
-small-1: 620px
+small-1: 690px
 small-2: 768px
 medium: 1060px
 large: 1200px
