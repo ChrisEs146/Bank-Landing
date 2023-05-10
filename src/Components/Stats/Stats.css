@@ -21,20 +21,20 @@
   gap: 0.5rem;
 }
 
-.stats span:first-child {
+.stats__item span:first-child {
   color: var(--white);
-  font-size: 1.8rem;
+  font-size: clamp(1.8rem, 2.5vw, 3rem);
   font-weight: 600;
 }
 
-.stats span:nth-child(2) {
-  font-size: 1.4rem;
+.stats__item span:nth-child(2) {
+  font-size: clamp(1.4rem, 1.5vw, 2.5rem);
   background: var(--text-gradient);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.stats li:not(:first-child) {
+.stats__item:not(:first-child) {
   border-top: 2px solid var(--dim-white);
 }
