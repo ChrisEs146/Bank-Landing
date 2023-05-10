@@ -47,12 +47,17 @@
   -webkit-text-fill-color: transparent;
 }
 
-.hero__text p {
-  text-align: center;
-  max-width: 40rem;
+.hero__img,
+.hero__img img {
+  position: relative;
+}
 }
 
 .hero__img img {
+  z-index: 5;
+  display: block;
+  margin-left: auto;
   height: auto;
-  width: 100%;
+  width: 70%;
+}
 }
