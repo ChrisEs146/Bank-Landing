@@ -38,3 +38,14 @@
 .stats__item:not(:first-child) {
   border-top: 2px solid var(--dim-white);
 }
+
+@media (min-width: 690px) {
+  .stats__list {
+    flex-direction: row;
+  }
+
+  .stats__item:not(:first-child) {
+    border-top: 0;
+    border-left: 2px solid var(--dim-white);
+  }
+}
