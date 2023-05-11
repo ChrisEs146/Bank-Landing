@@ -16,7 +16,7 @@
   margin: 0 auto 1.5rem auto;
 }
 
-.hero__card-description {
+.hero__discount-description {
   font-size: clamp(1.4rem, 4vw, 1.6rem);
 }
 
@@ -24,21 +24,9 @@
   color: var(--white);
 }
 
-.hero__header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
 .hero__title {
   font-size: clamp(2.8rem, 3.2vw, 7.5rem);
   margin-bottom: 2rem;
-}
-
-.hero__description {
-  font-size: clamp(1.6rem, 1vw, 1.8rem);
-  width: min(70%, 40rem);
 }
 
 .hero__header span {
@@ -89,20 +77,13 @@
 
 .hero__img img {
   z-index: 5;
-  display: block;
   margin-left: auto;
-  height: auto;
   width: 70%;
 }
 
 @media (min-width: 765px) {
   .hero {
     margin-left: 10%;
-  }
-
-  .hero__header {
-    display: block;
-    text-align: left;
   }
 
   .hero__discount-card {
