@@ -6,8 +6,8 @@ function FeatureCard({ icon, title, content, id }: FeatureProps) {
         <img src={icon} alt="Feature's icon" />
       </div>
       <div>
-        <h3>{title}</h3>
-        <p>{content}</p>
+        <h3 className="dynamic-h3">{title}</h3>
+        <p className="dynamic-p-1">{content}</p>
       </div>
     </li>
   );
