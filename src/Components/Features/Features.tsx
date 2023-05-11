@@ -4,10 +4,10 @@ import StartButton from "../SubComponents/StartButton";
 import "./Features.css";
 function Features() {
   return (
-    <section id="features" className="features">
-      <header className="features__content">
-        <h2>{FEATURES.title}</h2>
-        <p>{FEATURES.content}</p>
+    <section id="features" className="features margin-center">
+      <header className="features__header text-center">
+        <h2 className="dynamic-h2">{FEATURES.title}</h2>
+        <p className="dynamic-p">{FEATURES.content}</p>
         <StartButton />
       </header>
       <ul className="features__list">
