@@ -1,0 +1,26 @@
+.deals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.deals__header {
+  text-align: center;
+}
+
+.deals__header > * {
+  margin-bottom: 2rem;
+}
+
+.deals__img img {
+  margin: 0 auto;
+  width: 70%;
+}
+
+@media (min-width: 765px) {
+}
+.deals__img img {
+  margin: 0 0 0 auto;
+  width: 85%;
+}
