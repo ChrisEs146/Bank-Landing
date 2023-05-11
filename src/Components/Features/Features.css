@@ -1,17 +1,21 @@
-.features__content {
-  text-align: center;
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(29rem, 100%), 1fr));
+  align-items: center;
 }
 
-.features__content > * {
-  margin-bottom: 1.5rem;
+.features__header > * {
+  margin-bottom: 2.5rem;
 }
 
 .features__item {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  border-radius: 20px;
+  width: min(100%, 60rem);
   padding: 1rem;
+  border-radius: 20px;
+  margin-left: auto;
 }
 
 .features__item:hover {
@@ -29,10 +33,5 @@
 }
 
 .features__item img {
-  height: auto;
   width: 2rem;
-}
-
-.features__item p {
-  font-size: 1.4rem;
 }
