@@ -34,6 +34,9 @@
     #5ce1e6 51.94%,
     #33bbcf 90.29%
   );
+
+  /* Custom sizes */
+  --default-section-m: 10%;
 }
 /* Reset */
 html {
