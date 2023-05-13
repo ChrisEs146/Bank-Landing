@@ -106,20 +106,25 @@ button {
   padding: 0 1.5rem;
 }
 
+/* Utilities */
 .start-btn {
-  width: 100%;
+  width: min(95%, 30rem);
   padding: 1rem 2rem;
   border: 2px solid transparent;
-  background: var(--blue-gradient-2);
+  background-color: var(--secondary-color);
   color: var(--primary-color);
   border-radius: 10px;
   font-size: 1.6rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background 0.5s;
+  transition: background-color 0.5s;
 }
 
-.start-btn:hover {
+.start-btn:hover,
+.start-btn:focus {
+  background-color: var(--white);
+}
+
 .dynamic-p {
   font-size: clamp(1.6rem, 1vw, 1.8rem);
   width: min(70%, 50rem);
@@ -161,13 +166,3 @@ button {
     width: 15rem;
   }
 }
-
-/* 
-screens:
-small: 480px
-small-1: 690px
-small-2: 768px
-medium: 1060px
-large: 1200px
-extra large: 1700px
-*/
