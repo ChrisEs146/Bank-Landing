@@ -19,8 +19,8 @@
 }
 
 @media (min-width: 765px) {
-}
-.deals__img img {
-  margin: 0 0 0 auto;
-  width: 85%;
+  .deals__img img {
+    margin: 0 0 0 auto;
+    width: 85%;
+  }
 }
