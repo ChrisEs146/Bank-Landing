@@ -5,7 +5,7 @@ export const FEEDBACK = {
   reviews: [
     {
       id: "r-1",
-      name: "Herman Jensen",
+      name: "Sarah Jensen",
       title: "Founder & Leader",
       content: "Money is only a tool. It will take you wherever you wish, if you plan carefully.",
       img: people01,
@@ -18,7 +18,7 @@ export const FEEDBACK = {
       img: people02,
     },
     {
-      id: "r-2",
+      id: "r-3",
       name: "Kenn Garner",
       title: "Founder",
       content: "It's a wonderful platform. Simplifies all my online payments and transactions.",
