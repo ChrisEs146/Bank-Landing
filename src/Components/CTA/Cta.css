@@ -1,0 +1,12 @@
+.cta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+  gap: 1.8rem;
+  align-items: center;
+  justify-items: center;
+  width: min(90%, 90rem);
+  margin: 0 auto 7rem auto;
+  border-radius: 20px;
+  background: var(--black-gradient);
+  padding: 2rem 4rem;
+}
