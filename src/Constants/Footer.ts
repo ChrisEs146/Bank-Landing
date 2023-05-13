@@ -73,21 +73,25 @@ export const FOOTER = {
   socialMedia: [
     {
       id: "S-M1",
+      title: "Instagram",
       icon: instagram,
       link: "https://www.instagram.com/",
     },
     {
       id: "S-M2",
+      title: "Facebook",
       icon: facebook,
       link: "https://www.facebook.com/",
     },
     {
       id: "S-M3",
+      title: "Twitter",
       icon: twitter,
       link: "https://www.twitter.com/",
     },
     {
       id: "S-M4",
+      title: "LinkedIn",
       icon: linkedin,
       link: "https://www.linkedin.com/",
     },
