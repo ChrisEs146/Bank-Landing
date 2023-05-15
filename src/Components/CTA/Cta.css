@@ -10,3 +10,13 @@
   background: var(--black-gradient);
   padding: 2rem 4rem;
 }
+
+.cta__title {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+}
+
+@media (min-width: 765px) {
+  .cta {
+    padding: 4rem 5rem;
+  }
+}
