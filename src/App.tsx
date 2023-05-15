@@ -5,6 +5,8 @@ import Features from "./Components/Features/Features";
 import Billing from "./Components/Billing/Billing";
 import Deals from "./Components/Deals/Deals";
 import Testimonials from "./Components/Testimonials/Testimonials";
+import Cta from "./Components/CTA/Cta";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Billing />
       <Deals />
       <Testimonials />
+      <Cta />
+      <Footer />
     </div>
   );
 }
