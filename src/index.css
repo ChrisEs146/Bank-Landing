@@ -149,9 +149,13 @@ button {
   text-align: center;
 }
 
+.center-elem {
+  padding: 0 1.5em;
+}
+
 /* Utilities MQ */
 @media (min-width: 765px) {
-  .app > section:not(:first-of-type) {
+  .center-elem {
     padding: 0;
     margin-left: var(--default-section-m);
     margin-right: var(--default-section-m);
