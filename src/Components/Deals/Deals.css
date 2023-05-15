@@ -1,6 +1,6 @@
 .deals {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(28rem, 100%), 1fr));
   align-items: center;
   gap: 1.8rem;
 }
