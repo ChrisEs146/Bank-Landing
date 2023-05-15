@@ -3,9 +3,9 @@ import { quotes } from "../../assets";
 import "./Testimonials.css";
 function Testimonials() {
   return (
-    <section className="testimonials">
+    <section id="testimonials" className="testimonials center-elem">
       <header className="testimonials__header text-center">
-        <h2 className="dynamic-h2">{FEEDBACK.title}</h2>
+        <h2 className=" testimonials__title dynamic-h2">{FEEDBACK.title}</h2>
         <p className="dynamic-p">{FEEDBACK.content}</p>
       </header>
       <div className="testimonials__feedback">
@@ -22,8 +22,8 @@ function Testimonials() {
                   title={review.name}
                 />
                 <div className="testimonials__user-info">
-                  <span>{review.name}</span>
-                  <span>{review.title}</span>
+                  <span className="testimonials__user-name">{review.name}</span>
+                  <span className="testimonials__user-title">{review.title}</span>
                 </div>
               </div>
             </li>
