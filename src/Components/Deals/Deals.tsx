@@ -7,7 +7,7 @@ function Deals() {
       <header className="deals__header text-center">
         <h2 className="dynamic-h2">{DEALS.title}</h2>
         <p className="dynamic-p">{DEALS.content}</p>
-        <StartButton />
+        <StartButton text="Get Started" />
       </header>
       <div className="deals__img">
         <img src={DEALS.mainImage} alt="Analytics illustrations" />
