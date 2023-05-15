@@ -2,7 +2,7 @@ import { BILLING } from "../../Constants/Billing";
 import "./Billing.css";
 function Billing() {
   return (
-    <section className="billing" id="billing">
+    <section className="billing center-elem" id="billing">
       <div className="billing__img">
         <img src={BILLING.mainImage} alt="Transactions illustration" />
       </div>
