@@ -18,7 +18,7 @@ function Nav() {
           onClick={handleMenuToggle}
         />
         <div className={`nav__mobile-menu ${isToggle ? "visible" : "hidden"}`}>
-          <NavList />
+          <NavList toggleSetter={setIsToggle} />
         </div>
         <div className="nav__desktop-menu">
           <NavList />
