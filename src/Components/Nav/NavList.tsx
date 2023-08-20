@@ -1,9 +1,15 @@
 import { useState } from "react";
 import { NAVBARLINKS } from "../../Constants/Navbar";
+import { NavLinkProps } from "./nav.types";
 
-function NavList() {
+function NavList({ toggleSetter }: NavLinkProps) {
   const [active, setActive] = useState<string>("Home");
-  const handleNavLink = (title: string): void => setActive(title);
+  const handleNavLink = (title: string): void => {
+    setActive(title);
+    if (toggleSetter !== undefined) {
+      toggleSetter((prev) => !prev);
+    }
+  };
 
   return (
     <ul className="nav__list">
