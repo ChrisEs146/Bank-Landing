@@ -38,11 +38,13 @@
   /* Custom sizes */
   --default-section-m: 10%;
 }
+
 /* Reset */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
   overflow-x: hidden;
 }
 
