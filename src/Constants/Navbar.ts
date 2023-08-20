@@ -4,15 +4,19 @@ export const NAVBARLINKS = [
     title: "Home",
   },
   {
-    id: "about",
-    title: "About",
-  },
-  {
     id: "features",
     title: "Features",
   },
   {
-    id: "solutions",
-    title: "Solutions",
+    id: "billing",
+    title: "Billing",
+  },
+  {
+    id: "deals",
+    title: "Deals",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
   },
 ];
