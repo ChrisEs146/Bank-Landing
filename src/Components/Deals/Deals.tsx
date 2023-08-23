@@ -10,7 +10,7 @@ function Deals() {
         <StartButton text="Get Started" />
       </header>
       <div className="deals__img">
-        <img src={DEALS.mainImage} alt="Analytics illustrations" />
+        <img src={DEALS.mainImage} alt="Analytics illustrations" width="645" height="565" />
       </div>
     </section>
   );

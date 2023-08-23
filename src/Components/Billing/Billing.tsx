@@ -4,7 +4,7 @@ function Billing() {
   return (
     <section className="billing center-elem" id="billing">
       <div className="billing__img">
-        <img src={BILLING.mainImage} alt="Transactions illustration" />
+        <img src={BILLING.mainImage} alt="Transactions illustration" width="645" height="597" />
       </div>
       <header className="billing__header text-center">
         <h2 className="dynamic-h2">{BILLING.title}</h2>

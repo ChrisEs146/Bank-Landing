@@ -26,7 +26,7 @@ function Hero() {
         </header>
       </div>
       <div className="hero__img">
-        <img src={robot} alt="hero illustration" />
+        <img src={robot} alt="hero illustration" width="734" height="739" />
         <div className="gradient-pink"></div>
         <div className="gradient-white"></div>
         <div className="gradient-blue"></div>

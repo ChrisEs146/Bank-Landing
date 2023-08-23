@@ -20,6 +20,8 @@ function Testimonials() {
                   src={review.img}
                   alt={`${review.name}'s picture`}
                   title={review.name}
+                  width="64"
+                  height="64"
                 />
                 <div className="testimonials__user-info">
                   <span className="testimonials__user-name">{review.name}</span>
