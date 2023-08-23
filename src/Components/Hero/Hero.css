@@ -32,6 +32,7 @@
 .hero__header span {
   background: var(--text-gradient);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -46,6 +47,7 @@
   position: absolute;
   opacity: 0.4;
   filter: blur(70rem);
+  -webkit-filter: blur(70rem);
 }
 
 .gradient-pink {
