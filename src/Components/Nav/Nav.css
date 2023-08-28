@@ -48,6 +48,10 @@
   color: var(--dim-white);
 }
 
+.nav__link:hover {
+  color: var(--white);
+}
+
 .nav__link--active {
   border-bottom: 2px solid var(--white);
   color: var(--white);
