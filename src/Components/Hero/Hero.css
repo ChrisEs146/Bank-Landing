@@ -36,8 +36,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.hero__img,
-.hero__img img {
+.hero__img {
   position: relative;
 }
 
@@ -46,8 +45,7 @@
 .gradient-white {
   position: absolute;
   opacity: 0.4;
-  filter: blur(70rem);
-  -webkit-filter: blur(70rem);
+  filter: blur(8rem);
 }
 
 .gradient-pink {
