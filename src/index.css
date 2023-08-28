@@ -45,7 +45,6 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-padding-top: 10rem;
-  overflow-x: hidden;
 }
 
 *,
@@ -59,6 +58,7 @@ html {
 body {
   font-family: "Poppins", Helvetica, sans-serif;
   font-size: 1.6rem;
+  overflow-x: hidden;
 }
 
 h1,
@@ -154,6 +154,10 @@ button {
 
 .center-elem {
   padding: 0 1.5em;
+}
+
+.block-scroll {
+  overflow: hidden;
 }
 
 /* Utilities MQ */

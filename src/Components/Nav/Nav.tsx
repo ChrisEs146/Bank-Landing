@@ -5,8 +5,14 @@ import "./Nav.css";
 
 function Nav() {
   const [isToggle, setIsToggle] = useState<boolean>(false);
-
   const handleMenuToggle = (): void => setIsToggle(!isToggle);
+
+  if (isToggle) {
+    document.body.classList.add("block-scroll");
+  } else {
+    document.body.classList.remove("block-scroll");
+  }
+
   return (
     <nav className="nav">
       <div className="nav__container">
