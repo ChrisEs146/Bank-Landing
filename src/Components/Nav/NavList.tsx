@@ -3,9 +3,7 @@ import { NAVBARLINKS } from "../../Constants/Navbar";
 import { NavLinkProps } from "./nav.types";
 
 function NavList({ toggleSetter }: NavLinkProps) {
-  const [active, setActive] = useState<string>("Home");
-  const handleNavLink = (title: string): void => {
-    setActive(title);
+  const handleNavLink = (): void => {
     if (toggleSetter !== undefined) {
       toggleSetter((prev) => !prev);
     }
@@ -14,11 +12,8 @@ function NavList({ toggleSetter }: NavLinkProps) {
   return (
     <ul className="nav__list">
       {NAVBARLINKS.map((link) => (
-        <li key={link.id} onClick={() => handleNavLink(link.title)}>
-          <a
-            className={active === link.title ? "nav__link--active" : "nav__link"}
-            href={`#${link.id}`}
-          >
+        <li key={link.id} onClick={handleNavLink}>
+          <a className={"nav__link"} href={`#${link.id}`}>
             {link.title}
           </a>
         </li>
