@@ -84,6 +84,12 @@
 }
 
 @media (min-width: 765px) {
+  .nav {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: var(--nav-gradient);
+  }
+
   .nav__mobile-menu,
   .nav__menu {
     display: none;
