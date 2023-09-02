@@ -1,6 +1,7 @@
 import { HERO } from "../../Constants/Hero";
 import { discount, robot } from "../../assets";
 import "./Hero.css";
+
 function Hero() {
   return (
     <section id="home" className="hero">
