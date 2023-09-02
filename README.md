@@ -9,20 +9,11 @@
 
 ### Description:
 
-The landing page(LP) has 6 sections: **Hero**, **Features**, **Billing**, **Deals**, **Testimonials** and **Footer**.
-Through out the LP the Menu is sticky on both, the desktop version and mobile version. The menu has a faded out lower border to provide a smooth transition between the menu container and the sections' content.
+The responsive landing page(LP) is a recreation of this [design](https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank?type=design&node-id=310-485&mode=design). It has 6 sections: **Hero**, **Features**, **Billing**, **Deals**, **Testimonials** and **Footer**.
 
-**Hero section**:
+Throughout the LP, the menu is sticky on both the desktop version and mobile version. The menu has a faded-out lower border on desktop to provide a smooth transition between the menu container and the sections' content. Meanwhile, on mobile, it will display a blurry glass effect.
 
-**Features section**:
-
-**Billing section**:
-
-**Deals section**:
-
-**Testimonials section**:
-
-**Footer section**:
+_External links and "Get Started" buttons are not functional_
 
 ### Desktop Screeshots:
 
