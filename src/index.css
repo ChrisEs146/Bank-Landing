@@ -108,7 +108,8 @@ button {
 }
 
 /* Utilities */
-.start-btn {
+.start-btn,
+.start-btn:visited {
   display: inline-block;
   color: var(--primary-color);
   font-size: 1.6rem;
@@ -123,8 +124,7 @@ button {
   transition: background-color 0.5s;
 }
 
-.start-btn:hover,
-.start-btn:focus {
+.start-btn:hover {
   background-color: var(--white);
 }
 
