@@ -1,7 +1,8 @@
 .nav {
-  position: sticky;
   position: -webkit-sticky;
-  background: var(--nav-gradient);
+  position: sticky;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   top: 0;
   z-index: 6;
 }
