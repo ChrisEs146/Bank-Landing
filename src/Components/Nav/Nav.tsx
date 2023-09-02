@@ -30,6 +30,10 @@ function Nav() {
           <NavList />
         </div>
       </div>
+      <div
+        className={`nav__mobile-menu-bg ${isToggle ? "visible" : "hidden"}`}
+        onClick={handleMenuToggle}
+      ></div>
     </nav>
   );
 }
